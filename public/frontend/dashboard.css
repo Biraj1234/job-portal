@@ -1,0 +1,142 @@
+
+.btn-submit-dashboard {
+    color: white;
+    border-radius: 5px;
+    background: rgb(20, 115, 167);
+}
+.btn-submit-dashboard:hover {
+    background: rgb(14, 144, 217);
+}
+
+.dashboard-container{
+    /* border: 1px solid blue; */
+    /* padding-top: 10px; */
+    display: flex;
+    height: 130rem;
+}
+.left-side{
+    /* border-radius: 5px 0 0 5px; */
+    padding: 0;
+    color: white;
+    background-color: #1A2A3C;
+
+}
+.left-container{
+    margin-top: 60px;
+    /*border: 1px solid red;*/
+}
+
+.table{
+    /* border: 1px solid red; */
+    margin-bottom: 3rem;
+}
+
+.tabs{
+    display: flex;
+    width: 10rem;
+    align-items: center;
+    /*border: 1px solid red;*/
+    padding: 10px 0 10px 20px;
+    transition: 150ms ease-in-out;
+
+
+}
+.tabs:hover{
+    background-color: #305172;
+    cursor: pointer;
+
+}
+.right-side{
+    /* border: 1px solid red; */
+    background-color: white;
+    width: 100%;
+    padding: 2rem;
+}
+
+.top{
+
+    display: flex;
+    justify-content:space-between;
+    /*border: 1px solid red;*/
+    font-size: 2rem;
+    align-items: center;
+    border-bottom: 1px solid #C0C0C0;
+    margin-bottom: 1rem;
+}
+
+.search-dashboard{
+    border: 1px solid #bfbaba;
+    border-radius: 20px;
+    width: 11rem;
+    height: 20px;
+    padding:17px;
+    text-align: center;
+}
+
+.search-dashboard::placeholder{
+    text-align: center;
+}
+i{
+    padding-right:3px;
+}
+
+.card-container{
+  
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.cards{
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*border: 1px solid black;*/
+    height: 183px;
+    width: 211px;
+    margin: 10px;
+    box-shadow: 0 0 1px black;
+}
+
+
+.number{
+    font-size:3rem;
+    font-weight: bolder;
+}
+
+.rooms{
+    background-color: #FAF2E2;
+}
+
+.views{
+    background-color: #E2FAE3;
+}
+
+.comments{
+    background-color: #E2E2E2;
+}
+
+.tabs a{
+    text-decoration: none;
+}
+
+.dash{
+    font-size: 1rem;
+    font-weight: bolder;
+}
+a{
+    text-decoration:none;
+}
+
+
+.empty{
+    text-align: center;
+    color: red;
+}
+
+.apply{
+    border: 1px solid red;
+    height: 10vh;
+}
